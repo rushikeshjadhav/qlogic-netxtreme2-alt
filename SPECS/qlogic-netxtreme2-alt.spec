@@ -17,7 +17,7 @@
 
 Summary: Qlogic NetXtreme II iSCSI, 1-Gigabit and 10-Gigabit ethernet drivers
 Name: %{name_orig}-alt
-Version: 7.14.46
+Version: 7.14.61
 Release: 1
 License: GPL
 Group: System Environment/Kernel
@@ -88,6 +88,9 @@ version %{kernel_version}.
 %exclude %{_mandir}/man4/*
 
 %changelog
+* Wed Sep 25 2019 Rushikesh Jadhav <rushikesh7@gmail.com> - 7.14.61.1-1
+- Updated the driver to latest version 7.14.61.1 for XCP-NG 8
+
 * Mon Oct 22 2018 Rushikesh Jadhav <rushikesh7@gmail.com> - 7.14.46.1-1
 - Updated the driver to latest version 7.14.46.1 and changed its name to qlogic-netxtreme2-alt
 - Changed module_dir to updates/xcp-ng/%{driver_name}-%{version}
